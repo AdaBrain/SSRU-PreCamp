@@ -10,3 +10,10 @@ if (username === "adabrain") {
 } else {
     console.log("Javis: Access Denied")
 }
+
+// Why ===, !==
+console.log("'1' == 1", "1" == 1)
+console.log("'1' === 1", "1" === 1)
+// Not Equal to !=, !==
+console.log("'1' != 1", "1" != 1)
+console.log("'1' !== 1", "1" !== 1)
