@@ -1,4 +1,3 @@
-import pxArt from "./assets/pxArt.jpeg";
 import "./assets/ada.css";
 import Card from "./components/Card";
 import cardData from "./assets/data/cardsData.json";

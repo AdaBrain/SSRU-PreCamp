@@ -9,7 +9,7 @@ const Card = (props) => {
       <a href={img}>
         <img className="pixel-img" src={img} alt="" />
       </a>
-      <h1>{title}</h1>
+      <h3>{title}</h3>
       <p>
         {content} <a href="#">see more</a>
       </p>
