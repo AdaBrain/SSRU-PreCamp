@@ -12,12 +12,10 @@ function App() {
         Gartner, the world's leading information technology research and
         advisory firm, has named Zoom a Leader in the 2021 Magic Quadrant for
         Meeting Solutions. Read the report to learn why we're a Leader!
-      </p>
+      </p>      
 
-      <a href="https://google.com">Google.com</a>
-
-      <img id="ada-img" className="pixel-img" src={pxArt} alt="Pixel Art" />
-      <img className="pixel-img" src={pxArt} alt="Pixel Art" />
+      {/* <img id="ada-img" className="pixel-img" src={pxArt} alt="Pixel Art" />
+      <img className="pixel-img" src={pxArt} alt="Pixel Art" /> */}
 
       {/* Render Cards Components */}
       {cardData.map((data, idx) => (
