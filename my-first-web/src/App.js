@@ -18,12 +18,8 @@ function App() {
       <img id="ada-img" className="pixel-img" src={pxArt} alt="Pixel Art" />
       <img className="pixel-img" src={pxArt} alt="Pixel Art" />
 
-      <Card />
-      <Card />    
-      <Card />
-      <Card />
-      <Card />
-      <Card />
+      <Card title="AdaBrain.tv is the best!" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea" img={pxArt} />
+      
     </div>
   );
 }
