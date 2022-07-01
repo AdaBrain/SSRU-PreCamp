@@ -15,7 +15,7 @@
 .card-container {
     width: 20em;
     height: auto;
-    outline: 1px solid #555;
+    outline: 2px dashed #BF4904;
     margin: 1em;
     padding: 1em;
 }
@@ -31,9 +31,10 @@
     display: flex;
     height: 12em;
     width: 100%;
-    outline: 1px solid #555;
+    outline: 2px solid #F27405;
     padding: 1em;
-    margin-bottom: 1em;
+    margin-bottom: 3em;
+    box-shadow: 1em 1.1em 0.4em #BF4904;
 }
 
 .card-hz-content {
