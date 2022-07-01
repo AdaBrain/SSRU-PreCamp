@@ -18,7 +18,8 @@ function App() {
       <img id="ada-img" className="pixel-img" src={pxArt} alt="Pixel Art" />
       <img className="pixel-img" src={pxArt} alt="Pixel Art" />
 
-      <Card />      
+      <Card />
+      <Card />    
     </div>
   );
 }
