@@ -26,3 +26,17 @@
     justify-items: center;
     padding: 1em;
 }
+
+.card-hz-container {
+    display: flex;
+    height: 12em;
+    width: 100%;
+    outline: 1px solid #555;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.card-hz-content {
+    flex-direction: column;
+    padding-left: 1em;
+}
