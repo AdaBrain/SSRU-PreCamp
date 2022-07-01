@@ -1,5 +1,6 @@
 import pxArt from "./assets/pxArt.jpeg"
 import "./assets/ada.css"
+import Card from "./components/Card"
 
 function App() {
   return (
@@ -14,8 +15,10 @@ function App() {
 
       <a href="https://google.com">Google.com</a>
 
-      <img id="ada-img" class="pixel-img" src={pxArt} alt="Pixel Art" />
+      <img id="ada-img" className="pixel-img" src={pxArt} alt="Pixel Art" />
       <img className="pixel-img" src={pxArt} alt="Pixel Art" />
+
+      <Card />      
     </div>
   );
 }
