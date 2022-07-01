@@ -1,4 +1,5 @@
 import pxArt from "./assets/pxArt.jpeg"
+import "./assets/ada.css"
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
 
       <a href="https://google.com">Google.com</a>
 
-      <img src={pxArt} alt="Pixel Art" />
+      <img id="ada-img" class="pixel-img" src={pxArt} alt="Pixel Art" />
+      <img class="pixel-img" src={pxArt} alt="Pixel Art" />
     </div>
   );
 }

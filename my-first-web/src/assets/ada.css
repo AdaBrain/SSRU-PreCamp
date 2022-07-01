@@ -1,0 +1,13 @@
+
+/* Dot notation refer to "class" */
+.pixel-img {
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+/* # notation refer to "id" */
+#ada-img {
+    border: 10px solid #000;
+}
