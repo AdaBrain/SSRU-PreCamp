@@ -1,3 +1,5 @@
+import pxArt from "./assets/pxArt.jpeg"
+
 function App() {
   return (
     <div className="App">
@@ -10,6 +12,8 @@ function App() {
       </p>
 
       <a href="https://google.com">Google.com</a>
+
+      <img src={pxArt} alt="Pixel Art" />
     </div>
   );
 }
