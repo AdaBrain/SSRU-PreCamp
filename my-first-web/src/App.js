@@ -1,8 +1,23 @@
-import pxArt from "./assets/pxArt.jpeg"
-import "./assets/ada.css"
-import Card from "./components/Card"
+import pxArt from "./assets/pxArt.jpeg";
+import "./assets/ada.css";
+import Card from "./components/Card";
 
 function App() {
+  const cardData = [
+    {
+      title: "AdaBrain.tv is the best!",
+      content:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+      img: pxArt,
+    },
+    {
+      title: "SSRU is the best!",
+      content:
+        "magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea",
+      img: "https://i.pinimg.com/564x/ca/95/91/ca9591d56f610997411c547f1e401c6f.jpg",
+    },
+  ];
+
   return (
     <div className="App">
       <h1>AdaBrain is HERE</h1>
@@ -18,8 +33,16 @@ function App() {
       <img id="ada-img" className="pixel-img" src={pxArt} alt="Pixel Art" />
       <img className="pixel-img" src={pxArt} alt="Pixel Art" />
 
-      <Card title="AdaBrain.tv is the best!" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea" img={pxArt} />
-      
+      {/* Render Cards Components */}
+      {cardData.map((data, idx) => (
+        <Card
+          key={idx}
+          title={data.title}
+          content={data.content}
+          img={data.img}
+        />
+      ))}
+
     </div>
   );
 }
