@@ -15,7 +15,7 @@ function App() {
       <a href="https://google.com">Google.com</a>
 
       <img id="ada-img" class="pixel-img" src={pxArt} alt="Pixel Art" />
-      <img class="pixel-img" src={pxArt} alt="Pixel Art" />
+      <img className="pixel-img" src={pxArt} alt="Pixel Art" />
     </div>
   );
 }
